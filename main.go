@@ -1,7 +1,13 @@
 package main
 
-import "github.com/iaraoz/go-desde-0/variables"
+import (
+	"fmt"
+
+	"github.com/iaraoz/go-desde-0/variables"
+)
 
 func main() {
-	variables.MostrarEnteros()
+	estado, texto := variables.ConveritoaTexto(1986)
+	fmt.Println(estado)
+	fmt.Println(texto)
 }
