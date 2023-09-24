@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/iaraoz/go-desde-0/iteraciones"
+	"github.com/iaraoz/go-desde-0/arreglos_slices"
 )
 
 func main() {
@@ -22,5 +22,9 @@ func main() {
 		fmt.Printf("%s \n", os)
 	}
 	*/
-	iteraciones.Iterar()
+	//iteraciones.Iterar()
+	arreglos_slices.MuestroArreglos()
+	arreglos_slices.MuestroSlice()
+	arreglos_slices.Capacidad()
+
 }
