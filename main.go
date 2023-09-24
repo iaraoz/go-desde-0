@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/iaraoz/go-desde-0/mapas"
-)
+import "github.com/iaraoz/go-desde-0/users"
 
 func main() {
 	/*estado, texto := variables.ConveritoaTexto(1986)
@@ -26,5 +24,6 @@ func main() {
 	//arreglos_slices.MuestroArreglos()
 	//arreglos_slices.MuestroSlice()
 	//arreglos_slices.Capacidad()
-	mapas.MostrarMapas()
+	//mapas.MostrarMapas()
+	users.AltaUsuario()
 }
