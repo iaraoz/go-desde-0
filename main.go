@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/iaraoz/go-desde-0/arreglos_slices"
+	"github.com/iaraoz/go-desde-0/mapas"
 )
 
 func main() {
@@ -23,8 +23,8 @@ func main() {
 	}
 	*/
 	//iteraciones.Iterar()
-	arreglos_slices.MuestroArreglos()
-	arreglos_slices.MuestroSlice()
-	arreglos_slices.Capacidad()
-
+	//arreglos_slices.MuestroArreglos()
+	//arreglos_slices.MuestroSlice()
+	//arreglos_slices.Capacidad()
+	mapas.MostrarMapas()
 }
